@@ -54,6 +54,7 @@ class FactorsArray {
         for (int i=0; i < factors_array.length ; i++){
             System.out.print(factors_array[i]+" ");
         }
+        System.out.println();
     }
     
     public static void main(String args[]){
@@ -61,8 +62,13 @@ class FactorsArray {
         System.out.print("Enter the number :");
         int n = in.nextInt();
         int[] factors_array = factors(n);
-        System.out.println("Factors length :"+factors_array.length);
+        int[] prime_factors = primefactors(factors_array);
         
+        System.out.println("Factors length :"+factors_array.length);
+        System.out.println("Factors List");
         display_array(factors_array);
+        
+        System.out.println("Prime Factors List");
+        display_array(prime_factors);
     }
 }
