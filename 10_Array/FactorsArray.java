@@ -1,6 +1,6 @@
 
 /*
- Program : Implement Todo List with Array
+ Program : Implement Factors and Prime factors using array
  Author : Victor Banerjee
 */
 import java.util.*;
