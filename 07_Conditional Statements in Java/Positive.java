@@ -1,8 +1,10 @@
+
 /*
 Code: Code takes number as input and returns if number is positive,negative or zero.
 Author: Victor Banerjee
 */
 import java.util.*;
+
 public class Positive {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
@@ -17,5 +19,6 @@ public class Positive {
         } else {
             System.out.println("Equal to Zero");
         }
+        in.close();
     }
 }

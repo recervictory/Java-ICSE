@@ -32,6 +32,6 @@ public class ToDo {
         for (int i = 0; i < l; i++) {
             System.out.println((i + 1) + " " + plan[i] + "\t" + pri[i]);
         }
-
+        in.close();
     }
 }

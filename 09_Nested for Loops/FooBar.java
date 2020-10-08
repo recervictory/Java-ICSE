@@ -4,6 +4,7 @@ Code: Implement FooBar
 Author: Victor Banerjee
 */
 import java.util.*;
+
 public class FooBar {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
@@ -26,5 +27,6 @@ public class FooBar {
             }
             System.out.print("\t");
         }
+        in.close();
     }
 }

@@ -73,5 +73,6 @@ class FactorsArray {
 
         System.out.println("Prime Factors List");
         display_array(prime_factors);
+        in.close();
     }
 }
