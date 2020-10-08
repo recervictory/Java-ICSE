@@ -6,7 +6,7 @@ all he/she needs to know. The comments should usually include at least:
 
 PROJECT TITLE: Java ICSE
 PURPOSE OF PROJECT:
-VERSION or DATE:
+VERSION or DATE: 0.1
 HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+AUTHORS: Victor Banrejee
+USER INSTRUCTIONS: Best Wishes
