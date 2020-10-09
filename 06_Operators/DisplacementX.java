@@ -18,7 +18,6 @@ public class DisplacementX {
         int t = in.nextInt();
         System.out.println("Enter value of a: ");
         int a = in.nextInt();
-
         double x = x0 + v0 * t + 0.5 * a * t * t;
         System.out.println("Displacement(x): " + x);
         in.close();
