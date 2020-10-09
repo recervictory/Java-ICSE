@@ -18,11 +18,13 @@ public class QuadraticEquation
         int b = in.nextInt();
         System.out.println("Enter value of c: ");
         int c = in.nextInt();
-        double x1 = (-b + Math.sqrt(b*b - 4*a*c))/(2*a); // 1st Root
-        double x2 = (-b - Math.sqrt(b*b - 4*a*c))/(2*a); // 2nd Root
         
-        System.out.println("X 1st Root: "+x1);
-        System.out.println("X 2nd Root: "+x2);
+        double root1 = (-b + Math.sqrt(b*b - 4*a*c))/(2*a); // 1st Root
+        double root2 = (-b - Math.sqrt(b*b - 4*a*c))/(2*a); // 2nd Root
+        
+        System.out.println("X 1st Root: "+root1);
+        System.out.println("X 2nd Root: "+root2);
+        in.close();
     } 
 }
 
