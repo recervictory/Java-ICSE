@@ -3,7 +3,7 @@
  * Code : Implemment Rock Paper Scissors Game
  *
  * @author (Victor Banerjee)
- * @version (1.0)
+ * @version (1.1)
  */
 
 import java.util.Random;
@@ -57,9 +57,9 @@ public class RockPaperScissors
         String myChoice = choice(ch);
         System.out.println("You Choose :"+myChoice+"\nComputer Choose :"+compChoice);
         String score = result(myChoice,compChoice);
-        System.out.println(score);
+        System.out.println("\n\t**** "+score+" ****");
         ScoreBoard = updateScore(ScoreBoard,score);
-        System.out.println("Computer: "+ ScoreBoard[0]+ " | You: "+ ScoreBoard[1]);
+        System.out.println("\nComputer: "+ ScoreBoard[0]+ " | You: "+ ScoreBoard[1]);
     }
 }
 }
