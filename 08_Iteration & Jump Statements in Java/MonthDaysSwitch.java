@@ -29,7 +29,7 @@ public class MonthDaysSwitch {
             case 6:
             case 9:
             case 11:
-                numDays = 31;
+                numDays = 30;
                 break;
             case 2:
                 if (((year % 4) == 0) && !(year % 100 == 0) || (year % 400 == 0))
