@@ -45,7 +45,7 @@ public class RockPaperScissors {
         }
         return oldScore;
     }
-
+    // Main method
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         Random random = new Random();
