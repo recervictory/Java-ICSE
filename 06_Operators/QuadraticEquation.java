@@ -2,6 +2,7 @@
 /**
  * Code: Calculate root of x by  a,b and c as Input QuadraticEquation: .
  * (ax^2 + bx + c = 0)
+ *  2x^2 + 10x + 5 -> x
  * @author (Victor Banerjee)
  * @version (9.10.2020)
  * x1 = (-b + Math.sqrt(b*b - 4*a*c))/2*a

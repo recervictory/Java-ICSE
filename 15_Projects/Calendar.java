@@ -25,7 +25,6 @@ public class Calendar {
                 monthDays[1] = days[i];
             }
         }
-
         return monthDays;
     }
 
@@ -38,7 +37,7 @@ public class Calendar {
         }
         ;
         int Y = year % 100, C = (year - Y) / 100;
-        int f = (Y + (Y / 4) + (C / 4) - 2 * C + (26 * (month + 1) / 10) + day - 1); 
+        int f = (Y + (Y / 4) + (C / 4) - 2 * C + (26 * (month + 1) / 10) + day - 1);
         // Zeller's Rule:
         // https://en.wikipedia.org/wiki/Zeller%27s_congruence
         return f < 0 ? days[(f % 7 + 7) % 7] : days[f % 7];
@@ -47,7 +46,6 @@ public class Calendar {
     // Function generate the calender array
     public static int[][] calenderArray(int year, int monthDays, String monthName) {
         int cal[][] = new int[6][7];
-
         return cal;
     }
 
@@ -58,7 +56,7 @@ public class Calendar {
         System.out.print("Enter the Number of Year (YYYY) : ");
         int year = in.nextInt();
         int[] numDays = daysInMonth(month, year);
-        
+
         in.close();
     }
 }
