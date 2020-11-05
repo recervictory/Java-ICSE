@@ -2,7 +2,7 @@
 * Code: Implement math random to generate number in range
 * Author : Victor Banerjee
 * Date : 31-Oct-2020
-* Version : 1.1
+* Version : 1.2
 */
 import java.util.*;
 public class RangeRandom {
@@ -20,5 +20,6 @@ public class RangeRandom {
         for(int i = 0; i < 10; i++) {
             System.out.print((int)random(low, high) + "\t");
         }
+        in.close();
     }
 }
