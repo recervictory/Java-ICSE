@@ -130,7 +130,8 @@ Perimeter of a rectangle = 2 * (l + b)
 Perimeter of a circle = 2 * (22/7) * r 
 - Question 16 
 Design a class overloading a function calculate() as follows: 
-1. void calculate(int m, char ch) with one integer argument and one character argument. It checks whether the integer argument is divisible by 7 or not, if ch is 's', otherwise, it checks whether the last digit of the integer argument is 7 or not. 2. void calculate(int a, int b, char ch) with two integer arguments and one character argument. It displays the greater of integer arguments if ch is 'g' otherwise, it displays the smaller of integer arguments. 
+1. void calculate(int m, char ch) with one integer argument and one character argument. It checks whether the integer argument is divisible by 7 or not, if ch is 's', otherwise, it checks whether the last digit of the integer argument is 7 or not.
+2. void calculate(int a, int b, char ch) with two integer arguments and one character argument. It displays the greater of integer arguments if ch is 'g' otherwise, it displays the smaller of integer arguments. 
 - Question 17 
 Design a class to overload a function compare( ) as follows: 
 1. void compare(int, int) — to compare two integers values and print the greater of the two integers. 2. void compare(char, char) — to compare the numeric value of two characters and print with the higher numeric value. 3. void compare(String, String) — to compare the length of the two strings and print the longer of the two. 
