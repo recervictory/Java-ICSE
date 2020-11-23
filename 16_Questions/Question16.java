@@ -13,13 +13,15 @@ public class Question16 {
         }
     }
 
-    public static void calculate(int m, int b, char ch) {
-        int result = m > b && ch == 'g' ? m : b;
+    public static void calculate(int a, int b, char ch) {
+        int result = ch == 'g' ? (a > b ? a : b) : (a > b ? b : a); // if (ch==g)
         System.out.println(result);
     }
 
     public static void main(String args[]) {
-        calculate(1, 4, 'g');
+        calculate(1, 4, 'g'); // 4
         calculate(17, 's');
+        calculate(1, 4, 't'); // 1
+        calculate(17, 'l');
     }
 }
